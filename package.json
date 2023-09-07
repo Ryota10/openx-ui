@@ -1,0 +1,26 @@
+{
+  "name": "openx-ui",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "hello": "echo 'hello world'",
+    "dev:demo": "pnpm --filter @openx-ui/demo run dev",
+    "install:ui": "pnpm --filter ./packages/** install",
+    "build:ui": "pnpm --filter ./packages/** run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "4.3.4",
+    "sass": "1.66.1",
+    "typescript": "5.2.2",
+    "vite": "4.4.9"
+  },
+  "dependencies": {
+    "vue": "3.3.4"
+  }
+}

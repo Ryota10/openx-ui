@@ -1,0 +1,15 @@
+{
+  "name": "@openx-ui/docs",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "dev": "echo dev",
+    "build": "echo build"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@openx-ui/demo",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev"
+  },
+  "dependencies": {
+    "@openx-ui/ui": "workspace:^1.0.0"
+  }
+}
